@@ -12,10 +12,6 @@ body{
    margin: auto;
    width: 96vw;
    height: 1000px;
-   background: #73C8A9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 .sub-container{
    width: 100%;
@@ -48,6 +44,7 @@ background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, F
      display: flex;
      flex-direction: column;
      justify-content: space-between;
+     align-items: center;
      width: 200px;
      height: 310px;
 }
@@ -74,6 +71,12 @@ border-radius: 10px;
       justify-content: space-around;
       align-items: center;
       height: 100%;
+    }
+    .middle{
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
     }
 }
 #refresh{
